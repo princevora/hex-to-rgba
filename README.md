@@ -8,11 +8,11 @@ npm i palette-to-rgba
 ```
 ## Usage 
 ```js
-// Destruct the function
-import { hexToRgba } from "palette-to-rgba";
+// Import the object
+import palette from "palette-to-rgba";
 
 // Call the function
-hexToRgba('FFF');
+palette.hexToRgba('FFF');
 
 // output: 
 // 'rgba(255, 255, 255, 1)'
