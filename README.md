@@ -4,7 +4,7 @@ A npm package to convert a hex code to rgba
 
 ## Installation
 ```
-npm i hex-to-rgba
+npm i palette-to-rgba
 ```
 
 ## Test
