@@ -6,7 +6,17 @@ A npm package to convert a hex code to rgba
 ```
 npm i palette-to-rgba
 ```
+## Usage 
+```js
+// Destruct the function
+import { hexToRgba } from "palette-to-rgba";
 
+// Call the function
+hexToRgba('FFF');
+
+// output: 
+// 'rgba(255, 255, 255, 1)'
+```
 ## Test
 ```
 Color Utils
