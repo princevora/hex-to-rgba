@@ -1,7 +1,8 @@
 {
-  "name": "hex-to-rgba",
+  "name": "palette-to-rgba",
   "version": "1.0.0",
   "description": "A npm package to convert a hex code to rgba",
+  "homepage": "https://github.com/princevora/hex-to-rgba",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -9,8 +10,14 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "color",
+    "color_palettes",
+    "convert",
+    "rgba"
+  ],
+  "author": "PrinceVora (https://github.com/princevora/)",
+  "repository": "https://github.com/princevora/hex-to-rgba",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.6",
